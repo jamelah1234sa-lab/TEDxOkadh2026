@@ -5,29 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>تيدكس عكاظ | TEDx Okadh 2026</title>
     <style>
-        body { margin: 0; padding: 0; font-family: sans-serif; background-color: #000; color: #fff; text-align: center; }
-        header { padding: 60px 20px; border-bottom: 4px solid #eb0028; background: linear-gradient(rgba(0,0,0,0.8), #000); }
-        .ted-red { color: #eb0028; font-weight: bold; font-size: 3.5rem; margin: 0; }
-        .content { max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.8; }
-        .tagline { color: #eb0028; font-style: italic; font-size: 1.4rem; }
-        .btn { display: inline-block; background: #eb0028; color: #fff; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 30px; transition: 0.3s; }
-        footer { color: #666; padding: 40px; font-size: 0.9rem; }
+        /* تصميم الهوية البصرية لـ TEDx */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            width: 100%;
+            background: linear-gradient(to bottom, #1a1a1a, #000);
+            border-bottom: 4px solid #eb0028;
+        }
+
+        .ted-red {
+            color: #eb0028; /* لون تيد الأحمر الرسمي */
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        .year-label {
+            font-size: 1.8rem;
+            letter-spacing: 5px;
+            margin-top: 5px;
+            color: #fff;
+        }
+
+        .main-content {
+            max-width: 800px;
+            padding: 40px 20px;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        .tagline {
+            font-size: 1.6rem;
+            color: #eb0028;
+            font-style: italic;
+            margin-bottom: 25px;
+        }
+
+        .description {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+
+        .btn-interest {
+            display: inline-block;
+            background-color: #eb0028;
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(235, 0, 40, 0.3);
+        }
+
+        .btn-interest:hover {
+            background-color: #bf0020;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: auto;
+            padding: 40px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #222;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+
     <header>
         <h1 class="ted-red">TEDx<span style="color:white">Okadh</span></h1>
-        <div style="font-size: 1.5rem; letter-spacing: 5px;">2026</div>
+        <div class="year-label">2026</div>
     </header>
-    <div class="content">
+
+    <div class="main-content">
         <h2 class="tagline">أفكار تستحق الانتشار</h2>
-        <p>من قلب سوق عكاظ التاريخي، نأتيكم بمنصة تيدكس عكاظ 2026 لنستعرض معاً أفكاراً تُلهم العقول وتصنع المستقبل.</p>
-        <p>انتظرونا في حدث استثنائي يجمع بين عراقة الماضي وإبداع الحاضر.</p>
-        <a href="#" class="btn">سجل اهتمامك للحضور</a>
+        
+        <p class="description">
+            من قلب التاريخ في "سوق عكاظ"، نأتيكم بمنصة تيدكس عكاظ 2026. 
+            نسعى لاستضافة العقول المبدعة والمُلهمة لمشاركة تجاربهم التي تصنع التغيير، 
+            لنجمع بين عراقة الكلمة واستشراف المستقبل.
+        </p>
+        
+        <a href="#" class="btn-interest">سجل اهتمامك للحضور</a>
     </div>
+
     <footer>
-        هذا الحدث مُنظم بشكل مستقل بموجب ترخيص من TED<br>
-        &copy; 2026 جميع الحقوق محفوظة لـ تيدكس عكاظ
+        <p>هذا الحدث مُنظم بشكل مستقل بموجب ترخيص من TED</p>
+        <p>&copy; 2026 جميع الحقوق محفوظة لـ تيدكس عكاظ</p>
     </footer>
+
 </body>
 </html>
